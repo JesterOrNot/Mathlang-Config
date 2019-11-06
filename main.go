@@ -1,8 +1,7 @@
 package main
 
 func sum(i ...int) int {
-	var sum int = 0
-	for _, i := range i {
+	var sum int = 0; for _, i := range i {
 		sum += i
 	}
 	return sum
